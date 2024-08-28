@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+#import joblib
 #from churnback2 import columns
 from sklearn.preprocessing import MinMaxScaler
 #from churnback2 import project
-from churnback4 import columns
+from z2 import columns
 project = pd.DataFrame([np.array(columns)] ,columns=columns )
 
 gende = st.selectbox("input sex" , ['Female','Male'])
