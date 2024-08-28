@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings('ignore')
 #from churnconnect import project
 
-df = pd.read_csv(r"D:\MachineLerningMaktabkhoone-karbordi\Projects\9-churn\IT_customer_churn.csv")
+df = pd.read_csv(r"z3_IT_customer_churn.csv")
 #columns = df.columns
 #from churnconnect import project
 #project = pd.DataFrame([np.array(columns)] ,columns=columns )
